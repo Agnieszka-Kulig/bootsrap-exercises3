@@ -23,68 +23,75 @@
         <div class="col-md-6">
             <label for="input-name" class="form-label">Imię</label>
             <input type="text" class="form-control" id="input-name" placeholder="Jan" required/>
-            <div class="invalid-feedback">Podaj imię</div>
+            <div class="invalid-feedback">Podaj imię
+            </div>
         </div>
 
         <div class="col-md-6">
             <label for="input-surname" class="form-label"> Nazwisko </label>
             <input type="text" class="form-control" id="input-surname" placeholder="Kowalski" required/>
-            <div class="invalid-feedback">Podaj nazwisko</div>
+            <div class="invalid-feedback">Podaj nazwisko
+            </div>
         </div>
 
         <div>
-
-        <div class="col-md-12">
-            <label for="input-email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="input-email" placeholder="Jan.kowalski@wp.pl" required/>
-            <div class="invalid-feedback"> email wymagany</div>
-        </div>
-
-        <div>
-
-        <div class="col-md-12">
-             <label for="input-password" class="form-label">Hasło</label>
-             <input minlength="8" class="form-control" id="input-password" placeholder="Rtokiore" required/>
-             <div class="invalid-feedback"> Hasło musi mieć minimum 8 znaków</div>
-        </div>
+            <div class="col-md-12">
+                <label for="input-email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="input-email" placeholder="Jan.kowalski@wp.pl" required/>
+                <div class="invalid-feedback"> email wymagany
+                </div>
+            </div>
 
         <div>
 
-        <div class="col-md-12">
-             <label for="input-address" class="form-label">Ulica</label>
-                 <input type="input-address" class="form-control" id="input-address" placeholder="Okrężna" required/>
-             <div class="invalid-feedback"> Podaj adres</div>
+            <div class="col-md-12">
+                <label for="input-password" class="form-label">Hasło</label>
+                <input minlength="8" class="form-control" id="input-password" placeholder="Rtokiore" required/>
+                <div class="invalid-feedback"> Hasło musi mieć minimum 8 znaków
+                </div>
+            </div>
+
+        <div>
+             <div class="col-md-12">
+                  <label for="input-address" class="form-label">Ulica</label>
+                  <input type="input-address" class="form-control" id="input-address" placeholder="Okrężna" required/>
+             <div class="invalid-feedback"> Podaj adres
+             </div>
         </div>
 
-        <div class="row">
-              <div class="col-6">
+             <div class="row">
+             <div class="col-6">
                  <label for="input-code" class="form-label">Kod pocztowy</label>
-                 <div class="input-group">
-                     <input type="input-code" class="form-control" id="input-code" placeholder="00" required/>
-                     <div class="input-group-prepend">
-                        <span class="input-group-text">-</span>
-                     </div>
-                     <input type="input-code2" class="form-control" id="input-code2" placeholder="000" required/>
-                     <div class="invalid-feedback">Podaj kod</div>
+             <div class="input-group">
+                 <input type="input-code" class="form-control" id="input-code" placeholder="00" required/>
+             <div class="input-group-prepend">
+                 <span class="input-group-text">-</span>
+             </div>
+                 <input type="input-code2" class="form-control" id="input-code2" placeholder="000" required/>
+                 <div class="invalid-feedback">Podaj kod
+             </div>
         </div>
 
         </div>
-              <div class="col-6">
-              <label for="input-city" class="form-label">Miejscowość</label>
-              <input type="input-city" class="form-control" id="input-city" placeholder="Gdańsk" required/><div class="invalid-feedback">Wpisz miasto</div>
+             <div class="col-6">
+                  <label for="input-city" class="form-label">Miejscowość</label>
+                  <input type="input-city" class="form-control" id="input-city" placeholder="Gdańsk" required/><div class="invalid-feedback">Wpisz miasto
+             </div>
         </div>
 
+             </div>
         </div>
-
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check-terms" required/>
+                <label for="check-terms">Akceptuję regulamin </label>
+                <div class="invalid-feedback"> Zaakceptuj regulamin, jeśli chcesz kontynuować
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="check-terms" required/>
-                    <label for="check-terms">Akceptuję regulamin </label>
-                    <div class="invalid-feedback"> Zaakceptuj regulamin, jeśli chcesz kontynuować</div>
-                </div>
-                <div class="col-12 text-end">
-                    <button type="submit" class="btn btn-primary">Zarejestruj się</button>
-                </div>
+            </div>
+            <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+            </div>
+        </div>
+        </div>
     </form>
 </div>
 
